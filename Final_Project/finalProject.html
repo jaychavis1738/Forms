@@ -1,0 +1,78 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WEB-115 Final Project</title>
+        <style>
+            #banner{
+                text-align: center;
+                padding: 20px;
+            }
+
+            .body{
+                font-family:Arial, Helvetica, sans-serif
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="banner">
+            <img src="D:\WEB_115\Banner\Build Your Meal Plan-logos_white.png" style="width: 1200px; height: 400px; background-color: black;">
+        </div>
+        <h1 style="text-align: center;">Perfectly Portioned Fitness Meal Plan Creator</h1>
+        <form id="myForm">
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="name" name="name" value="Enter your name"><br>
+                    <br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your email" required><br>
+                    <br>
+            
+                <label for="goal">Your Goal For The Week:</label><br>
+                <input type="text" id="goal" name= "goal" value="Goal for the week"><br>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Add Your Meals</legend>
+                <label for="breakfast">Breakfast:</label><br>
+                <input type="text" id="breakfast" name="breakfast"><br>
+                <br>
+
+                <label for="snack1">Snack:</label><br>
+                <input type="text" id="snack1" name="snack1"><br>
+                <br>
+
+                <label for="lunch">Lunch:</label><br>
+                <input type="text" id="lunch" name="lunch"><br>
+                <br>
+
+                <label for="snack2">Snack:</label><br>
+                <input type="text" id="snack2" name="snack2"><br>
+                <br>
+
+                <label for="dinner">Dinner:</label><br>
+                <input type="text" id="dinner" name="dinner"><br>
+                <br>    
+            </fieldset>
+            <fieldset>
+                <legend>Options For Meal Plan</legend>
+                <input type="submit" id="form_submit" value="Create Meal Plan"><br>
+                <br>
+
+                <input type="button" id="form_clear" value="Clear Meal Plan"><br>
+                <br>
+
+                <input type="button" id="form_download" value="Download Meal Plan"><br>
+                <br>
+                
+                <input type="button" id="form_print" value="Print Meal Plan"><br>
+                <br>
+            </fieldset>
+        </form>
+
+        <script src="projectJS.js"></script>
+    </body>
+</html>
